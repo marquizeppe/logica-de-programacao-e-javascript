@@ -1,12 +1,104 @@
 <meta charset="utf-8">
 
 <script>
-	document.write("oi" + "<br>"); 
+	function pularLinha() {
 
-	document.write("eu sou gustavo" + "<br>");
+		document.write("<br>")	
+	}
 
-	document.write(10+10 + "<br>");
+	function mostra(frase) {
+		document.write(frase);
+		pularLinha();
+	}
 
-	document.write("somando " + (10+10)/3); 
+	mostra("Gustavo nasceu em  " + (2022 - 31));
+	pularLinha()
+	mostra("João nasceu em  " + (2022 - 15));
+	pularLinha()
+	mostra("Carlos nasceu em  " + (2022 - 27));
+
+	pularLinha()
+	pularLinha()
+
+
+    document.write((200 + 100 + 300 + 400)/4);
+
+	pularLinha()
+	pularLinha()
+
+    document.write("Eu acertei: " + 15/50*100 + "%");
+    pularLinha()
+	pularLinha()
+
+
+
+    var ano = 2022;
+    document.write("Flávio tem " + (ano - 1990) + "<br>");
+    document.write("Joaquim tem " + (ano - 1995) + "<br>");
+    document.write("Barney tem " + (ano - 2015) + "<br>");
+
+    ano = 2023
+    document.write("Barney tem " + (ano - 2015));
+ 	pularLinha()
+	pularLinha()
+
+
+    var n = 5
+    document.write("O resultado da fórmula é : " + n * (10 / 20)  );
+   	pularLinha()
+	pularLinha()
+
+
+	var minhaIdade = 20;
+    document.write("Eu nasci em " + (2016 - minhaIdade) );
+    pularLinha()
+	pularLinha()
+
+
+    var tabuada = 9;
+  	document.write(tabuada + " vezes 1 é " + tabuada * 1 + "<br>");
+ 	document.write(tabuada + " vezes 2 é " + tabuada * 2 + "<br>");
+ 	document.write(tabuada + " vezes 3 é " + tabuada * 3 + "<br>");
+ 	document.write(tabuada + " vezes 4 é " + tabuada * 4 + "<br>");
+ 	document.write(tabuada + " vezes 5 é " + tabuada * 5 + "<br>");
+ 	document.write(tabuada + " vezes 6 é " + tabuada * 6 + "<br>");
+ 	document.write(tabuada + " vezes 7 é " + tabuada * 7 + "<br>");
+ 	document.write(tabuada + " vezes 8 é " + tabuada * 8 + "<br>");
+ 	document.write(tabuada + " vezes 9 é " + tabuada * 9 + "<br>");
+ 	document.write(tabuada + " vezes 10 é " + tabuada * 10 + "<br>");
+
+   
+  	pularLinha()
+	pularLinha()
+
+    
+    var idadeGustavo = 50
+    var idadeJoao = 20
+    var idadePedro = 41
+    var media = (idadeGustavo + idadeJoao + idadePedro)/3;
+
+    document.write("A média das idades é " + Math.round(media))
+
+    document.write("<br><br><br>");
+
+    var nome = "Gustavo";
+    document.write(idadeGustavo + " é a idade do " + nome);
+
+
+    pularLinha()
+    pularLinha()
+
+    var idadeJoana = 12
+    var idadeKarina = 15
+    var idadeSilvia = 13
+    var totalIdades = idadeJoana + idadeKarina + idadeSilvia
+
+    document.write("A média das idades é " + Math.round((totalIdades) / 3));
+
+
+
+
+
 
 </script>	
+
